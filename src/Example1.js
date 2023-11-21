@@ -1,6 +1,8 @@
 import { getPostsPage } from './api/axios'
 import { useState, useEffect } from 'react'
 import Post from './Post'
+import { FcNext } from "react-icons/fc";
+import { FcPrevious } from "react-icons/fc";
 
 const Example1 = () => {
     const [page, setPage] = useState(1)
@@ -21,8 +23,8 @@ const Example1 = () => {
     return (
         <>
             <nav>
-                <button onClick={prevPage} disabled={page === 1}>Prev Page</button>
-                <button onClick={nextPage} disabled={!posts.length}>Next Page</button>
+            <button onClick={prevPage} disabled={page === 1}> <FcPrevious /> </button>
+                <button onClick={nextPage} disabled={!posts.length}> <FcNext /> </button>
             </nav>
             {content}
         </>

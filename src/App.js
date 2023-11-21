@@ -3,7 +3,7 @@ import Example2 from "./Example2";
 
 function App() {
 
-  return <Example1 />
+  return <Example2 />
 }
 
 export default App;
