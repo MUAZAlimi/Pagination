@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  background-color: #000;
+  background: linear-gradient(rgba(241, 252, 255, 0.363), rgba(196, 190, 190, 0.2)), 
+              linear-gradient(rgb(0, 145, 128),rgb(0, 145, 130));
   font-family: 'Nunito', sans-serif;
 }
 
@@ -30,14 +31,14 @@ button {
 }
 
 p {
-  color: whitesmoke;
+  color: black;
 }
 
 article {
   margin: 1em;
   padding: 1em;
-  background-color: midnightblue;
-  color: whitesmoke;
+  background-color: aquamarine;
+  color: black;
   border-radius: 15px;
 }
 
@@ -73,5 +74,5 @@ img {
   position: absolute;
   top: 1rem;
   left: 1rem;
-  color: #fff;
+  color: black;
 }
